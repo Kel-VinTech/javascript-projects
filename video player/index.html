@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>video player</title>
+</head>
+<body>
+    <div class="player">
+        <video src=""></video>
+
+        <div class="player_controls">
+            <div class="progress">
+                <div class="progress_filled"></div>
+            </div>
+            <button class="player_button toggle" title="toggle play" ></button>
+            <input type="range" name="volume" class="player_slider" min="0" max="1" step="0.05" value="1" >
+            <input type="range" name="playbackrate" class="player_slider min
+            0.5" max="2" step="0.1" value="1" >
+            <button data-skip="-10" class="player_button"><< 10s</button>
+            <button data-skip="20" class="player_button">20s >></button
+        </div>
+    </div>
+    <script src="/video player/app.js"></script>
+</body>
+</html>
