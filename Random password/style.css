@@ -79,3 +79,8 @@ button i{
 .generate{
     background: rgb(224, 52, 52);
 }
+
+.show{
+    background: rgb(3, 138, 9);
+    padding: .5rem 0.7rem;
+}
