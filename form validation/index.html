@@ -9,41 +9,44 @@
     <title>Form Validation</title>
 </head>
 <body>
-    <div class="container">
-        <div class="form">
-            <h2>Form Registration</h2>
-            <div class="form__msg">
-
-                <div class="username">
-                    <input type="text" placeholder="Full Name">
-                    <i class="fa-solid fa-user"></i>
+    <form  class="custom_form" onsubmit="formValidation()"
+    action="#">
+        <div class="container">
+            <div class="form">
+                <h2>Create Account</h2>
+                <div class="form__msg">
+    
+                    <div class="Fname">
+                        <input type="text" class="name" placeholder="Full Name">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="username">
+                        <input type="email" placeholder="Email Address">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="username">
+                        <input type="tel"  placeholder="Phone Number">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="username">
+                        <input type="password"  placeholder="Password">
+                        <i class="fa-sharp fa-solid fa-shield"></i>
+                    </div>
+                    <div class="username">
+                        <input type="password"  placeholder="Confirm Password">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
                 </div>
-                <div class="username">
-                    <input type="email"  placeholder="Email Address">
-                    <i class="fa-solid fa-envelope"></i>
+                <div class="check">
+                    <input type="checkbox"> 
+                    <label for="checkbox">Agree with <span>Terms & Conditions</span></label>
                 </div>
-                <div class="username">
-                    <input type="tel"  placeholder="Phone Number">
-                    <i class="fa-solid fa-phone"></i>
-                </div>
-                <div class="username">
-                    <input type="password"  placeholder="Password">
-                    <i class="fa-sharp fa-solid fa-shield"></i>
-                </div>
-                <div class="username">
-                    <input type="password"  placeholder="Confirm Password">
-                    <i class="fa-solid fa-circle-check"></i>
-                </div>
+                <button type="submit">Create Account</button>
+                <h3>Already have an account?  <span><a href="#">Login</a></span></h3>
             </div>
-            <div class="check">
-                <input type="checkbox"> 
-                <label for="checkbox">Agree with <span>Terms & Conditions</span></label>
-            </div>
-            <button>Create Account</button>
-            <h3>Already have an account?  <span><a href="#">Login</a></span></h3>
+           
         </div>
-       
-    </div>
+    </form>
     <script src="/form validation/app.js"></script>
 </body>
 </html>

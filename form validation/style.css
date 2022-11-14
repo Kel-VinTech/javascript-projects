@@ -24,9 +24,6 @@ body{
 }
 
 .form{
-    /* display: flex;
-    align-items: flex-start;
-    flex-direction: column; */
     padding:0.7rem 2rem;   
 }
 
@@ -48,11 +45,13 @@ body{
     box-shadow: inset 8px 8px 8px #cbced1, inset
     -8px -8px 8px #fff;
 }
+
 .form h2{
     margin-bottom: 30px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
+
 
 .form__msg input{
     width: 90%;
