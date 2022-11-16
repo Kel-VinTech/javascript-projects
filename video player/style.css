@@ -1,6 +1,24 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
 body{
     margin: 0 auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ecf0f3;
+}
+
+.container{
+    width: auto;
+    max-width: 90vmin;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #cbced1;
+}
+.player{
+    padding: .7rem;
 }
