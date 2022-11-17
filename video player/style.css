@@ -21,4 +21,5 @@ body{
 }
 .player{
     padding: .7rem;
+    border: none;
 }
