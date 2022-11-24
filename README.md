@@ -1,6 +1,9 @@
 # javascript-projects
  this repo contains some projects done with basic javascript concepts 
- fell free to fork this repo.
+ feel free to fork this repo.
+ 
+ ##How to fork and clone a repo 
+ https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
 
 ## Prerequisites
